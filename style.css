@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.barre-outils {
+    display: flex;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+}
+
+.barre-outils button {
+    margin-right: 10px; /* Espace entre les boutons */
+    padding: 8px 16px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.barre-outils button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.contenu {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.formulaire {
+    display: none;
+}
+
+.formulaire.active {
+    display: block;
+}
